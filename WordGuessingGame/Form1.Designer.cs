@@ -128,7 +128,7 @@
             Controls.Add(WordToGuess);
             ForeColor = SystemColors.ControlText;
             Name = "Form1";
-            Text = "Form1";
+            Text = "Wordie";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();

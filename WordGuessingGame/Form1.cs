@@ -33,6 +33,7 @@ namespace WordGuessingGame
                     WordToGuess.Text = GameFunctions.ObfuscatedBank[functions.CurrentIndex];
                     Score.Text = $"Score: {functions.CurrentIndex}";
                 }
+                Guesses.Items.Clear();
             }
             else
             {
